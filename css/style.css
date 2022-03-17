@@ -1,0 +1,13 @@
+#main{
+    border: 1px solid black;
+}
+
+#phrases{
+    border: 1px solid blue;
+}
+
+h2{
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+}
