@@ -4,3 +4,15 @@ body{
     font-family: 'Manrope', sans-serif;
     text-align: center;
 }
+
+h2{
+    color: hsl(150, 100%, 66%);
+    font-size: 15px;
+    font-weight:lighter;
+}
+p{
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+    font-weight: normal;
+}
+

@@ -23,10 +23,10 @@ function CreateEmelent(id,advice){
         // creating a tag h2
         const code = document.createElement('h2')
         //adding the text to the tag h2
-        code.innerHTML= "ADVICE" + "#" +String(id)
+        code.innerHTML= "ADVICE"+ ""+ "#" +String(id)
 
         // creating a tag h1
-        const quote = document.createElement('h1')
+        const quote = document.createElement('p')
         //adding the text to the tag h1
         quote.innerHTML= "\"" + String(advice) + "\""
 

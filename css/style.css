@@ -9,33 +9,39 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: hsl(218, 23%, 16%);
     border: 3px solid blue;
     height: 100%;
     width: 100%;
 }
 #main{
+    position: absolute;
     display: inherit;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    width: 700px;
-    height: 270px;
+    width:600px;
+    height: 350px;
     padding: 15px;
-    border: 3px solid black;
+    border: 3px solid red;
     background-color: hsl(217, 19%, 38%);
 }
 
 #phrases{
+    position: relative;
     display: inherit;
     flex-direction: column;
     align-items: center;
-    height: 200px;
+    justify-content: space-between;
+    height: 220px;
+    padding-bottom: 20px;
     border: 1px solid blue;
 }
 
 
 button{
+    position: relative;
     border: none;
     background-color: blue;
 }
