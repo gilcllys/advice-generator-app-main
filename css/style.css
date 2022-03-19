@@ -57,5 +57,6 @@ body{
 }
 
 #btn:hover{
-    background-color: hsl(150, 100%, 66%);
+    box-shadow: 0 0 1em hsl(150, 100%, 66%);
+};
 }
